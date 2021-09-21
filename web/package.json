@@ -5,6 +5,7 @@
   "dependencies": {
     "@react-google-maps/api": "^1.13.0",
     "axios": "^0.20.0",
+    "dotenv": "^10.0.0",
     "leaflet": "^1.7.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

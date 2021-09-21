@@ -8,11 +8,8 @@ export class createImages1602803913971 implements MigrationInterface {
       columns: [
         {
           name: 'id',
-          type: 'integer',
-          unsigned: true,
+          type: 'uuid',
           isPrimary: true,
-          isGenerated: true,
-          generationStrategy: 'increment',
         },
         {
           name: 'path',
@@ -20,7 +17,7 @@ export class createImages1602803913971 implements MigrationInterface {
         },
         {
           name: 'orphanage_id',
-          type: 'integer',
+          type: 'uuid',
         }
       ],
       foreignKeys: [
