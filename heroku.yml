@@ -1,3 +1,7 @@
+setup:
+  addons:
+    - plan: heroku-postgresql
+      as: database_nlw
 build:
   docker:
   web: Dockerfile
